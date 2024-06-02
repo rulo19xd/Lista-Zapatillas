@@ -62,7 +62,7 @@ body {
 }
 
 tr:hover {
-    background-color: gray;
+    background-color: #808080;
     color: white;
 }
 
@@ -75,13 +75,13 @@ tr:hover {
 }
 
 #tabla th, #tabla td {
-    border: 1px solid black; /* Aplica el borde a las celdas de encabezado y datos */
+    border: 1px solid #000000; /* Aplica el borde a las celdas de encabezado y datos */
     padding: 8px;
     text-align: left;
 }
 
 #tabla thead th {
-    background-color: gray; /* Color de fondo para el encabezado */
+    background-color: #808080; /* Color de fondo para el encabezado */
 }
 
 /* Responsive */
