@@ -10,6 +10,8 @@ body {
     height: 100vh;
 }
 
+/* buscador */
+
 .container {
     width: 100%;
     display: flex;
@@ -38,10 +40,6 @@ body {
     font-size: 20px;
 }
 
-.search-box button img {
-    width: 25px;
-}
-
 .search-box button {
     padding: 18px 12px;
     border: 0;
@@ -49,6 +47,9 @@ body {
     background: transparent;
     cursor: pointer;
 }
+
+
+/* tabla */
 
 .tabla {
     width: 100%;
@@ -60,17 +61,28 @@ body {
     border: #000;
 }
 
+tr:hover {
+    background-color: gray;
+    color: white;
+}
+
 #tabla {
     width: 90%;
     max-width: 1000px;
     border-radius: 5px;
     background: #fff;
-    align-items: center;
-    height: 85px;
+    border-collapse: collapse; /* Asegura que los bordes colapsen */
 }
 
-th {
-    border: #000;
+#tabla th, #tabla td {
+    border: 1px solid black; /* Aplica el borde a las celdas de encabezado y datos */
+    padding: 8px;
+    text-align: left;
 }
 
+#tabla thead th {
+    background-color: gray; /* Color de fondo para el encabezado */
+}
+
+/* Responsive */
 
